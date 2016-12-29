@@ -1,0 +1,104 @@
+doctype html
+html(lang='en')
+  head
+    link(href='seman/semantic.min.css', type='text/css', rel='stylesheet')
+    script(src='https://code.jquery.com/jquery-2.2.4.min.js', type='text/javascript')
+    link(href='seman/semantic.min.js', type='text/javascript', rel='stylesheet')
+    title Assignment-1
+    .ui.inverted.segment
+      .ui.row.grid
+        .one.wide.column
+        .four.wide.column
+          .ui.top.attached.tabular.menu.inverted
+            a.item Symbiotic Cart
+              a.item Order
+                .circular.ui.red.label 2
+            a.item Add Product
+            a.item Integration
+        .eight.wide.column
+        .two.wide.column
+          .ui.menu.right.floated.inverted
+            .ui.simple.dropdown.item Sadri.Muffadal52@gmail.com
+              .ui.dropdown.icon
+              .ui.menu
+                a.item Your Order
+                a.item Wish List
+                a.item Order History
+        .one.wide.column          
+    .ui.segment
+      .ui.row.grid
+        .four.wide.column.blue
+          .ui.menu.vertical.fluid
+            .dropdown.tasks.icon
+              .ui.simple.dropdown.item DashBoard
+                .tasks.icon
+                .menu
+                  a.item Your Order
+                  a.item Wish List
+                  a.item Order History
+              a.item Orders
+                i.list.layout.icon
+              a.item Products
+                i.travel.icon
+              a.item Coupons
+                i.tag.icon
+              a.item Shipping
+                i.shipping.icon
+              a.item Customers
+                i.user.icon
+              a.item Integration
+                i.archive.icon 
+        .twelve.wide.column
+          .text.container
+            .ui.header.huge Settings
+            .ui.blue.horizontal.divider.blue.medium More Setting
+          .ui.tabular.menu
+            a.active.item Website Settings
+            a.item Payments
+            a.item SocialLogin
+            a.item reCaptcha
+            a.item Shipping
+            a.item Security
+          br
+          .text.container
+            .ui.header.huge Website Settings
+          br
+          .ui.equal.width.form
+            .fields
+              .field
+                label.large Website URL
+                input(type="text",placeholder="Enter URL")
+            .fields      
+              .field
+                label.large Your Email
+                input(type="email",placeholder="Enter E-mail id")
+            .fields      
+              .field
+                label.large Invoice Email
+                input(type="email",placeholder="Enter Invoice id")
+            .fields      
+              .field
+                label.large Product Images
+                input(type="file",placeholder="Enter image")
+            .fields      
+              .field
+                label.large Mode
+                select.ui.search.dropdown
+                  option(value='OL') Live
+                  option(value='OF') Offline
+                  option(value='ST') Status
+            br
+            .ui.animated.fade.orange.button
+              .visible.content Update
+              .hidden.content
+                i.angellist.icon
+
+
+
+
+
+
+        
+
+
+
