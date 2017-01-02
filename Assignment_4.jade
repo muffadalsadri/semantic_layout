@@ -1,0 +1,283 @@
+doctype html
+html(lang="en")
+	head
+		link(href="seman/semantic.min.css",type="text/css",rel="stylesheet")
+		script(src='https://code.jquery.com/jquery-2.2.4.min.js', type='text/javascript')
+		link(href="seman/semantic.min.js",type="text/javascript",rel="javascript")
+		title Assignment-4
+		.ui.segment
+			.ui.row.grid
+				.ui.grey.seven.wide.column
+					.ui.secondary.menu.inverted
+						a.active.item Site
+						a.item Users
+						a.item Menu
+						a.item Contents
+						a.item Components
+						a.item Extensions
+						a.item Help
+
+				.ui.grey.four.wide.column
+				.ui.grey.five.wide.column
+					.ui.label.item Visitors
+						.detail 25
+					.ui.label.item Admin
+						.detail 2
+					.ui.label.item View Sites 
+						.detail 12
+					.ui.label.item LogOut
+						.detail !
+			br
+			br
+			.ui.row.grid
+				.ui.yellow.five.wide.column.block
+					.ui.container
+						h2.ui.header.huge.inverted
+							img.ui(src="logo.png")
+							.ui.content.header Order 
+								h3.ui.content.header [List]
+				.ui.orange.seven.wide.column.block
+				.ui.orange.four.wide.column.block
+					.ui.container
+						.ui.secondary.menu.massive.inverted
+							a.ui.item Update Order Status
+								i.ui.save.icon
+							a.ui.item Delete
+									i.ui.trash.icon
+			br
+			.ui.row.grid
+				.ui.Sixteen.wide.column.container
+					.ui.icon.message.red
+						i.info.circle.icon
+						.ui.content
+							.ui.header Waring
+								p The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+			br
+			.ui.row.grid
+				.ui.Sixteen.wide.column.container
+					.ui.icon.message.blue
+						i.info.circle.icon
+						.ui.content
+							.ui.header Waring
+								p The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+			br
+			.ui.row.grid
+				.ui.Sixteen.wide.column.container
+					.ui.icon.message.blue
+						i.info.circle.icon
+						.ui.content
+							.ui.header Waring
+								p The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+			.ui.row.grid
+				.ui.four.wide.column
+					.ui.container
+						h2.ui.header.huge.inverted
+							img.ui(src="logo_2.jpg")
+							.ui.content.header VirtueMart
+						.ui.text.content.inverted.blue.segment
+							h3.ui.black.inverted.content.header Product
+				.ui.one.wide.column
+				.ui.nine.wide.column
+					br
+					br
+					label.item Filter
+						.ui.input.focus
+							input(type="text" placeholder="")
+					button.ui.button Go
+					button.ui.button Reset
+					label.item.medium Order Status:
+						select.ui.select.dropdown.segment.raised
+							option.ui.item.big(value="") plese select
+							option.item(value="St") status
+							option.item(value="WL") Wish List
+							option.item(value="HT") History
+					br
+					br
+					.ui.header.medium Results 1-10 of 33 Date: 20-march-2016 to Date: 31-Dec-2016
+			.ui.row.grid
+				.ui.three.wide.column
+					.ui.vertical.menu
+						.ui.header.inverted.big
+							i.ui.item.big Order & Shoppers
+						.ui.item Order
+							i.dashboard.icon
+						br
+						.ui.item Revenue Report
+							i.browser.icon
+						br
+						.ui.item Shoppers
+							i.area.chart.icon
+						br
+						.ui.item Shoppers Groups
+							i.edit.icon
+						br
+						.ui.item Coupons
+							i.tasks.icon
+					
+					.ui.segment
+						.ui.item.segment.inverted.blue
+							i.ui.header.big Manufacturers
+						.ui.item.segment.inverted.blue
+							i.ui.header.big Shop
+						.ui.item.segment.inverted.blue
+							i.ui.header.big Configuration
+						.ui.item.segment.inverted.blue
+							i.ui.header.big History
+				.ui.thirteen.wide.column
+					table.ui.celled.table
+						thead
+							tr
+							th Select
+							th Order Number
+							th Name
+							th Payment Method
+							th Print View
+							th Order Date
+							th Last Modified
+							th Status
+							th Notify Shopper?
+							th Total
+							th Order Id
+						tbody
+							tr
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+								td 5425368
+								td teste teste
+								td standard Payment
+								td.ui.compact
+									i.print.icon.big
+								td sunday 21 march 2k16
+								td sunday 21 march 2k16
+								td.ui.compact
+									select.ui.search.dropdown
+										option.item(value="") plese select
+										option.item(value="St") status
+										option.item(value="WL") Wish List
+										option.item(value="HT") History
+									br
+									a.item Add Comment 
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item include this Comment?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item Notify Shopper?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item update status for all lines?
+								td $42.52
+								td 33
+							tr
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+								td 5425368
+								td teste teste
+								td standard Payment
+								td.ui.compact
+									i.print.icon.big
+								td sunday 21 march 2k16
+								td sunday 21 march 2k16
+								td.ui.compact
+									select.ui.search.dropdown
+										option.item(value="") plese select
+										option.item(value="St") status
+										option.item(value="WL") Wish List
+										option.item(value="HT") History
+									br
+									a.item Add Comment 
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item include this Comment?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item Notify Shopper?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item update status for all lines?
+								td $42.52
+								td 33
+							tr
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+								td 5425368
+								td teste teste
+								td standard Payment
+								td.ui.compact
+									i.print.icon.big
+								td sunday 21 march 2k16
+								td sunday 21 march 2k16
+								td.ui.compact
+									select.ui.search.dropdown
+										option.item(value="") plese select
+										option.item(value="St") status
+										option.item(value="WL") Wish List
+										option.item(value="HT") History
+									br
+									a.item Add Comment 
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item include this Comment?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item Notify Shopper?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item update status for all lines?
+								td $42.52
+								td 33
+							tr
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+								td 5425368
+								td teste teste
+								td standard Payment
+								td.ui.compact
+									i.print.icon.big
+								td sunday 21 march 2k16
+								td sunday 21 march 2k16
+								td.ui.compact
+									select.ui.search.dropdown
+										option.item(value="") plese select
+										option.item(value="St") status
+										option.item(value="WL") Wish List
+										option.item(value="HT") History
+									br
+									a.item Add Comment 
+								td.ui.compact
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item include this Comment?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item Notify Shopper?
+									br
+									.ui.fitted.checkbox
+									input(type="checkbox")
+									a.item update status for all lines?
+								td $42.52
+								td 33
+							
+
+
+							
+
+
+
+
+
+

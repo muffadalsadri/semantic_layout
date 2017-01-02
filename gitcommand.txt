@@ -1,0 +1,51 @@
+For GIT repositries :
+
+1.	git branch
+2.	
+git status
+
+3.git add . 
+4.git commit -am"message"
+
+5.git pull origin branch name(like feature/ux)
+
+
+6.git fetch --all
+
+7.git checkut branch name(like master)
+
+8.git reset --hard
+
+9.git reset --hard HEAD^1
+
+10. git push origin branch_name(Eg: master)
+For New Repositries :
+
+
+
+1.it init
+
+2.git remote add origin path(https://github.com/repositry name.git
+
+3.git remote(for check the remote)
+
+4.git fetch -all
+
+Switch to new remote from existing remote :
+
+1.git remote set-url origin path(https://github.com/repositry name.git
+
+For git flow settings
+
+
+1. sudo apt-get install git-flow
+
+2. git fetch --all
+
+3.  git checkout -t -b develop origin/develop
+
+For switched from any branch in git:
+
+
+1.git branch -f master(branch name) HEAD && git checkout master(branch name)
+
